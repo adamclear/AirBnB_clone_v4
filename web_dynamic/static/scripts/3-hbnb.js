@@ -8,7 +8,7 @@ $(document).ready(function() {
         }
         if (amenityList.length > 0) {
           $('.amenities h4').css("width", "250px");
-          $('.amenities h4').css("height", "25px");
+          $('.amenities h4').css("height", "17px");
           $('.amenities h4').css("overflow", "hidden");
           $('.amenities h4').css("white-space", "nowrap");
           $('.amenities h4').css("text-overflow", "ellipsis");
