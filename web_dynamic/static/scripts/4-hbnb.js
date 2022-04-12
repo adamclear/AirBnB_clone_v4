@@ -35,7 +35,7 @@ $(document).ready(function() {
     contentType: "application/json",
     success: function (places) { 
       for (const place of places) { 
-        $.get('http://127.0.0.1:5002/api/v1/users/' + place.user_id, function (userData) {
+        $.get('http://127.0.0.1:5001/api/v1/users/' + place.user_id, function (userData) {
           $('.places').append(`<article>
               <div class="title_box">
                 <h2>${place.name}</h2>
